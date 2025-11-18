@@ -1,0 +1,9 @@
+speechrecognition
+pyttsx3
+transformers
+sentencepiece
+torch
+vosk
+pyaudio
+sounddevice
+numpy
