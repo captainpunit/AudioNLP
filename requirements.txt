@@ -1,9 +1,21 @@
-speechrecognition
-pyttsx3
-transformers
-sentencepiece
-torch
-vosk
-pyaudio
-sounddevice
-numpy
+# Core ML and NLP
+transformers>=4.35.0
+torch>=2.0.0
+sentencepiece>=0.1.99
+spacy>=3.7.0
+
+# Speech Recognition
+vosk>=0.3.45
+sounddevice>=0.4.6
+pyaudio>=0.2.13
+numpy>=1.24.0
+
+# Text-to-Speech
+pyttsx3>=2.90
+
+# GUI (included with Python)
+# tkinter - comes with Python standard library
+
+# Optional: For better performance
+# accelerate>=0.24.0
+# safetensors>=0.4.0
